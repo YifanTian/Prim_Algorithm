@@ -1,0 +1,22 @@
+
+Instruction: 
+1. Type “make clean” in terminal.
+2. type “make” in terminal.
+3. type “./Prim ‘input_file.txt’” to perform Prim algorithm on specific file ‘input_file.txt’.
+4. The “prim_ouput.txt” is the file storing the result of Prim algorithm. The prim_output.txt only counts the nodes in MST and ignore the isolated nodes, whose weights and parent cannot be defined.
+
+ 
+After every time performing changes to script. Type “make clean” then “make”. The executable program is “Prim”. 
+
+The printing during the execution will print out the nodes in original graph at the top, then all the edges within the MST, even they are separated graphs, at last it will print out the total number of edges in MSTs, but all MSTs should have edges.
+
+
+
+Example graph.txt:
+
+graph_1.txt : From CLRS page 635.
+
+graph_2.txt : From HW3 question1.
+
+Please try these two graphs.
+
